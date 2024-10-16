@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+    <header id = "header">
+        <nav><aside class="name">Hello<br>And<br>Welcome</aside>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact_me">Contact Me</a></li>
+                <li><a href="#social_media">Social Meida</a></li>
+            </ul>
+        </nav>
+           
+    </header>
+
+
+
+    <section id="about" class="container">
+        <div>
+            <img src="imgs/me_processed.jpg">
+        </div>
+        <div>
+            <h1>Hello, I'm Joel<span class="wave">&#128075;</span></h1><br>
+            <p>As a senior at Hoboken High School, my career goal is to become a software developer. In college, I want to study computer science. I'm really passionate about coding, and I'm always up for learning new skills. I'm currently studying front-end development, but I want to learn back-end as well so that I can eventually become a full-stack developer.</p>
+        </div>
+
+    </section>
+
+    <section id="skills" class="container">
+        <h1>Skills</h1>
+        <div class="flex-container">
+           
+            <div class="html">
+                <img class="html-img" src="imgs/html_processed.png">
+                
+                
+            </div>
+           
+            <div class="css">
+                <img class="css-img" src="imgs/css3_processed.webp">
+            </div>
+            
+            <div class="jss">
+                <img class="javascript-img" src="imgs/jss_processed.jpg">
+                
+            </div>
+          </div>
+            
+    </section>
+
+    <section id="projects" class="container">
+        <h1>Projects</h1>
+        <div class="flex-container">
+            <div class="project1">
+                <h2>Interest Calculator</h2>
+                <p>I used HTML, CSS, and JavaScript to develop a basic interest calculator. I also employed different variables and boolean states in that project.</p>
+            </div>
+            
+            <div class="project2">
+                <h2>McDonald's Landing Page</h2>
+                <p>In my second project, I used HTML and CSS to completely rebuild the McDonald's landing page and included the dom method in the process.</p>
+            </div>
+
+            <div class="project3">
+                <h2>StarBucks Landing Page</h2>
+                <p>Like in the McDonald's project, I rebuilt the Starbucks landing page using my knowledge of CSS and HTML.</p>
+            </div>
+            
+        </div>
+                
+    </section>
+
+    <section id="social_media">
+        <h1>Social Media</h1>
+        <div class="flex-containersm">
+            <div class="social-media-icon1">
+                <a href="https://www.instagram.com/bbyjoell" target="_blank" style="text-decoration: none; color: inherit;">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                
+            </div>
+            
+            <div class="social-media-icon2">
+                <a href="https://www.linkedin.com/in/joel-acevedo-075ab428a/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            
+            <div class="social-media-icon3">
+                <a href="https://github.com/DndJoel" target="_blank" style="text-decoration: none; color: inherit;">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact_me" class="container">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/xrbggyab" method="POST">
+            
+            <input type="text" name="name" placeholder="Name" required>
+            <br>
+            <input type="email" name="email" placeholder="Email" required>
+            <br>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <script src="script.js"></script>    
+</body>
+</html>

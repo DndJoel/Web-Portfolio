@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav{
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: #333333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.name{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+p, #about{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 200px;
+    display: ;
+    color: white;
+    text-align: center;
+    display: flex;
+
+    
+}
+
+.img-responsive{
+    width: 300px;
+    height: auto;
+    margin-left: 90px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+
+p{
+    font-size: 24px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 750;
+    margin-top: 30px;
+    padding: 15px; /* Add padding inside the border */
+    border: 5px solid;
+    border-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-image-slice: 1;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,96,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+
+#skills {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.html{
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #000; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+    margin: 20px auto; /* Center the box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    font-weight: 800;
+    
+}
+
+
+ .css-img, .css{
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #000; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+    margin: 20px auto; /* Center the box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    font-size: 800;
+
+}
+.css-img{
+    border: none;
+    box-shadow: none;
+    margin-left: -40px;
+    width: 250px;
+    
+}
+
+.jss{
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #000; /* Border around the box */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+    margin: 20px auto; /* Center the box horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    font-weight: 800;
+
+}
+
+.html:hover, .css:hover, .jss:hover {
+    transform: scale(1.05); /* Change the size of the box when hovered */
+    cursor: pointer; /* Change the cursor to a hand when hovered */
+}
+
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+    transform-origin: 70% 70%; /* Makes the wave look more natural */
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(14deg); }
+    30% { transform: rotate(-8deg); }
+    40% { transform: rotate(14deg); }
+    50% { transform: rotate(-4deg); }
+    60% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#projects{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    margin-top: 0px;
+    color: white;
+    font-size: larger;
+}
+
+#social_media{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 200px;
+    display: ;
+    color: white;
+    text-align: center;
+}
+
+.flex-containersm{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 100px;
+}
+
+.fa-linkedin-in{
+    color: white;
+}
+
+.fa-linkedin-in:hover{
+    color: #0077B5;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.fa-instagram:hover{
+    color: #0077B5;
+    transition: color 0.3s ease-in-out;
+}
+
+.fa-github:hover{
+    color: #0077B5;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact_me{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    color: white;
+    font-size: larger;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 300px; /* Slightly wider */
+    padding: 12px; /* More padding for better spacing */
+    margin-bottom: 20px; /* Increased margin between inputs */
+    border-radius: 8px; /* Slightly more rounded corners */
+    border: 2px solid #e4d9d9; /* Original border color */
+    color: #333333; /* Darker text for better readability */
+    font-size: 16px; /* Increase font size */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+}
+
+/* Focus state for input fields */
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #0077B5; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 119, 181, 0.5); /* Subtle shadow effect */
+}
+
+/* Style for the textarea */
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    height: 100px; /* Set a default height */
+}
+
+/* Submit button style */
+input[type="submit"] {
+    background-color: #0077B5;
+    color: white;
+    padding: 12px 40px; /* Adjust padding for consistency */
+    border: none;
+    border-radius: 8px; /* Match button corners with input fields */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size */
+    transition: transform 0.3s, background-color 0.3s; /* Button transition */
+}
